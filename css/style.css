@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body {
+    background: #02010a;
+    font-family: 'Dancing Script';
+}
+
+img {
+    box-shadow: 5px 5px 2px #02010a;
+}
+
+.contenido {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+ 
+}
+
+h2 {
+    margin: 0;
+    padding-top: 5px;
+}
+
+ul {
+    margin: 0;
+}
+
+.cabecera {
+    color: white;
+    padding: 0 10px;
+    background: #5b7989;
+    border-radius: 25px 25px 0 0;
+    -webkit-animation: slidein 1s;
+    /* Safari 4.0 - 8.0 */
+    animation: slidein 1s;
+    height: 81px;
+}
+
+@-webkit-keyframes slidein {
+    0% {
+        margin-top: 150%;
+    }
+    60% {
+        margin-top: -5%;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes slidein {
+    0% {
+        margin-top: 150%;
+    }
+    60% {
+        margin-top: -5%;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
+
+.cabecera h1 {
+    text-shadow: 2px 2px 2px #02010a;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+}
+
+.imagencentral {
+    text-align: center;
+    background: #82c3a6;
+}
+
+.imagencentral img {
+    max-width: 90%;
+}
+
+.col {
+    background-color: #d5c75f;
+    text-align: center;
+    height: auto;
+}
+
+.col img {
+    width: 80%;
+    border: 1px solid black;
+    max-height: 317px;
+    margin: 10px;
+}
+
+#paisajes img:hover {
+    transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    box-shadow: 5px 5px 2px #82c3a6;
+}
+
+#retratos img:hover {
+    transform: translate(20px, -5px);
+    -moz-transform: translate(20px, -5px);
+    -webkit-transform: translate(20px, -5px);
+    box-shadow: 5px 5px 2px #82c3a6;
+}
+
+footer {
+    border-radius: 0 0 10px 10px;
+    background-color: #C6d5c5;
+}
+
+footer p {
+    padding-bottom: 10px;
+}
+
+footer div {
+    margin: auto 0;
+}
+
+.actual:link {
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    display: block;
+}
+
+
+/* paisajes */
+
+.sepia {
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.galeria .blur {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.imgsec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d5c75f;
+}
+
+.imgsec div {
+    padding: 30px;
+}
+
+.imgsec a {
+    color: black;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.imgsec img {
+    width: 100%;
+}
+
+.imgsec p {
+    margin: 0;
+}
+
+
+
+/* .galery img {
+    height: 150px;
+} */
+.galeria { 
+    background-color: #d5c75f;
+    width: 100%;
+    display: block;
+
+}
+
+/* desktops */
+
