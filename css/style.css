@@ -195,4 +195,27 @@ footer div {
 }
 
 /* desktops */
+@media (min-width:900px) {
+    .contenido{
+        max-width: 900px;
+    }
+    .imgsec div {
+        flex: 1;
+    }
+    .imgsec p {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
 
+    
+    .cabecera h1 {
+        float: left;
+    }
+    nav {
+        float: right;
+        margin: 30px;
+    }
+ 
+
+    
+}
