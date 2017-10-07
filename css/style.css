@@ -216,6 +216,40 @@ footer div {
         margin: 30px;
     }
  
+    .imgsec {
+        display: -webkit-flex;
+        /* Safari */
+        display: flex;
+    }
+    /* .galeria  {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+  
+    
+    .galeria img {
+        height: 150px;
+    }  */
+    footer {
+        display: flex;
+        text-align: left;
+        padding: 20px;
+    }
+    footer div {
+        width: 25%;
+        margin: 0 auto;
+    }
 
+
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .col{        
+        width: 33%;
+    }
     
 }
